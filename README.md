@@ -1,5 +1,5 @@
-## **debian-jessie-aarch64-docker**
-Scripts to build debian docker image on a ARM64 target board.
+## **debian-jessie-arm-docker**
+Scripts to build debian docker image on a ARM target board.
 
 How to install docker on FriendlyCore-RK3399
 ------------
@@ -15,8 +15,8 @@ dpkg -i docker-ce_18.09.3~3-0~ubuntu-bionic_arm64.deb
 How to build
 ------------
 ```
-# git clone https://github.com/friendlyarm/debian-jessie-aarch64-docker
-# cd debian-jessie-aarch64-docker
+# git clone https://github.com/friendlyarm/debian-jessie-arm-docker
+# cd debian-jessie-arm-docker
 # ./rebuild-image.sh
 ```
 
@@ -33,8 +33,8 @@ Check debian version
 # lsb_release -a
 No LSB modules are available.
 Distributor ID:	Debian
-Description:	Debian GNU/Linux 8.8 (jessie)
-Release:	8.8
+Description:	Debian GNU/Linux 8.7 (jessie)
+Release:	8.7
 Codename:	jessie
 ```
 
