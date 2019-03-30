@@ -1,5 +1,5 @@
-deb [arch=arm64] http://ftp.cn.debian.org/debian/ jessie main contrib non-free
-deb-src [arch=arm64] http://ftp.cn.debian.org/debian/ jessie main contrib non-free
+deb [arch=armhf] http://ftp2.cn.debian.org/debian/ jessie main contrib non-free
+deb-src [arch=armhf] http://ftp2.cn.debian.org/debian/ jessie main contrib non-free
 
-deb [arch=arm64] http://ftp.cn.debian.org/debian/ jessie-updates main contrib non-free
-deb-src [arch=arm64] http://ftp.cn.debian.org/debian/ jessie-updates main contrib non-free
+# deb [arch=armhf] http://ftp2.cn.debian.org/debian/ jessie-updates main contrib non-free
+# deb-src [arch=armhf] http://ftp2.cn.debian.org/debian/ jessie-updates main contrib non-free

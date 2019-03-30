@@ -1,4 +1,4 @@
-FROM aarch64/debian
+FROM armhf/debian
 COPY ./sources.list /etc/apt/sources.list
 RUN apt-get update
 RUN echo "root:fa" | chpasswd
